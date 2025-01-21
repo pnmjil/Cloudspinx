@@ -10,7 +10,7 @@ Finally, a good download manager should have the ability to automatically recove
 
 ### 1. WebTorrent Desktop Download Manager
 
-WebTorrent Desktop is an open source Torrent Application for streaming torrents whether videos, music or audio books in real time without having to wait for the download. WebTorrent Desktop connects to both BitTorrent and WebTorrent peers. Being open source software, it is available for download for Mac, Windows and Linux users.
+WebTorrent Desktop is an open source Torrent Application for streaming torrents whether videos, music or audio books in real time without having to wait for the download. WebTorrent Desktop connects to both BitTorrent and WebTorrent peers. Being free, open source software and cross-platform, it is available for download for Mac, Windows and Linux users.
 
 #### WebTorrent Desktop Features
 
@@ -156,7 +156,7 @@ Install Tribler on Ubuntu Desktop and its derivatives with the steps below.
 
 ##### Step 1 : Download the latest release of Tribler
 
-To download the latest release of Tribler, navigate to Tribler [Github]() latest releases page and grab the package that fits your system architecture.
+Download Tribler latest Release on [Tribler Github page]([Releases · Tribler/tribler · GitHub](https://github.com/Tribler/tribler/releases)).
 
 ```bash
 cd Downloads/
@@ -1005,24 +1005,24 @@ apt show transgui | grep Version
 
 Launch the Transgui application by navigating to **Applications Manager** >> **Show Apps** >> search for **Transmission Remote GUI** 
 
-![](C:\Users\pndungu\AppData\Roaming\marktext\images\2025-01-16-17-19-54-image.png)
+![Transgui-Launch] (https://github.com/pnmjil/Cloudspinx/blob/main/DownloadManagers/Images/TransguiImages/Transgui-Launch-Application.JPG)
 
 Double click on the icon to launch the application.
 
-![](C:\Users\pndungu\AppData\Roaming\marktext\images\2025-01-16-17-21-57-image.png)
+![Transgui-User-Interface] (https://github.com/pnmjil/Cloudspinx/blob/main/DownloadManagers/Images/TransguiImages/Transgui-User-Interface.JPG)
 
 To start using the application, navigate to **Torrent** >> **Connect to Transmission**. You will be asked to specify the **Remote host address** and the **port** number. You will also need to specify the **Authenctication** details i.e **Username** and **Password** which can be retrieved at the configuration file located at */etc/transmission daemon/settings.json*
 
 Other configurations can be effected on the same file. Connecting to the remote host activates other functionalities.
 
-![](C:\Users\pndungu\AppData\Roaming\marktext\images\2025-01-20-13-55-27-image.png)
+![Transgui-Remote-Connection] (https://github.com/pnmjil/Cloudspinx/blob/main/DownloadManagers/Images/TransguiImages/Transgui-Remote-Host-Connection.JPG)
 
 To add a local torrent, navigate to **Torrent** >> **Add torrent** . Then select the location of your torrent.
 
-![](C:\Users\pndungu\AppData\Roaming\marktext\images\2025-01-20-14-33-50-image.png)
+![Transgui-Add-Local-Torrent] (https://github.com/pnmjil/Cloudspinx/blob/main/DownloadManagers/Images/TransguiImages/Transgui-Add-Local-Torrent.JPG)
 
 To Add a torrent link, navigate to **Torrent** >> **Add torrent link** then paste the URL of the torrent.
 
-![](![](Images/TransguiImages/Transgui-User-Interface.JPG))
+![Transgui-Add-Torrent-Link] (https://github.com/pnmjil/Cloudspinx/blob/main/DownloadManagers/Images/TransguiImages/Transgui-Add-Torrent-From-Link.JPG)
 
 Read more on Transgui on the official [Github Page]([GitHub - transmission-remote-gui/transgui: 🧲 A feature rich cross platform Transmission BitTorrent client. Faster and has more functionality than the built-in web GUI.](https://github.com/transmission-remote-gui/transgui)) 
