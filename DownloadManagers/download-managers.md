@@ -100,7 +100,7 @@ webtorent-desktop
 
 The launch opens the WebTorrent Desktop interface 
 
-![WebTorrent-WebTorrent-Desktop-interface.png](./images/WebTorrentimages/WebTorrent-WebTorrent-Desktop-interface.png)
+![WebTorrent-WebTorrent-Desktop-interface.png](./Images/WebTorrentImages/WebTorrent)
 
 ### Step 5: Using WebTorrent Desktop
 
