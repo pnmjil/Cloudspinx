@@ -1,2 +1,0 @@
-# Cloudspinx
-# Download-Managers
