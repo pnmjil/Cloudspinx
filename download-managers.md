@@ -975,9 +975,7 @@ Some of the features associated with Transgui are as highlighted below:
 
 #### Installation and Usage
 
-The latest releases for download are available on the [Github Releases]([Releases · transmission-remote-gui/transgui · GitHub](https://github.com/transmission-remote-gui/transgui/releases)) page for various distributions. These packages are for building the application from source code. 
-
-Precompiled program binaries for i386 and x86_64 Linux architectures exist in package managers for these Linux architectures. For this documentation we will use this method.
+The latest Transgui releases for download are available on the [Github Releases](GitHub](https://github.com/transmission-remote-gui/transgui/releases)) page for various distributions. These packages are for building the application from source code. Precompiled program binaries for i386 and x86_64 Linux architectures exist in package managers for these Linux architectures. For this documentation we will use this method.
 
 ##### Step 1 : Install Transgui on Ubuntu Desktop
 
@@ -1025,4 +1023,4 @@ To Add a torrent link, navigate to **Torrent** >> **Add torrent link** then past
 
 ![](./Images/TransguiImages/AddTorrentFromLink.jpg)
 
-Read more on Transgui on the official [Github Page]([GitHub - transmission-remote-gui/transgui: 🧲 A feature rich cross platform Transmission BitTorrent client. Faster and has more functionality than the built-in web GUI.](https://github.com/transmission-remote-gui/transgui)) 
+Read more on Transgui on the official [Github Page](https://github.com/transmission-remote-gui/transgui).
