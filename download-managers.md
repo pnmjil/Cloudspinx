@@ -156,7 +156,7 @@ Install Tribler on Ubuntu Desktop and its derivatives with the steps below.
 
 ##### Step 1 : Download the latest release of Tribler
 
-To download the latest release of Tribler, navigate to Tribler [Github]() latest releases page and grab the package that fits your system architecture.
+To download the latest release of Tribler, navigate to Tribler [Github latest release](https://github.com/Tribler/tribler/releases) latest releases page and grab the package that fits your system architecture.
 
 ```bash
 cd Downloads/
