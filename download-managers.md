@@ -223,7 +223,7 @@ Addittionally, you are able to see the popular torrents as well as tweaking the 
 
 ![Tribler-Popular-Torrents.png](./Images/TriblerImages/PopularTorrents.png)
 
-To read more on Tribler, visit the official [Github page]([Releases · Tribler/tribler · GitHub](https://github.com/Tribler/tribler/releases)).
+To read more on Tribler, visit the official [Github page](https://github.com/Tribler/tribler).
 
 ### 3. Motrix Download Manager
 
