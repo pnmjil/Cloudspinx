@@ -317,7 +317,7 @@ Click Lab to view the **Featured Extensions** available for use with Motrix Down
 
 ![Motrix-Featured-Extensions.JPG](./Images/MotrixImages/FeaturedExtensions.jpg)
 
-Get more details about Motrix on the official [Motrix Github page]([GitHub - agalwood/Motrix: A full-featured download manager.](https://github.com/agalwood/Motrix))
+Get more details about Motrix on the official [Motrix Github page](https://github.com/agalwood/Motrix)
 
 ### 4: rTorrent Downloader Manager
 
@@ -660,7 +660,7 @@ In the Advanced Tab, you can setup your proxy server as well as setup the [API](
 
 ![](./Images/GopeedImages/APIIntegration.jpg)
 
-Read more on Gopeed on the official [Gopeed Github page]([GitHub - GopeedLab/gopeed: A modern download manager that supports all platforms. Built with Golang and Flutter.](https://github.com/GopeedLab/gopeed)).
+Read more on Gopeed on the official [Gopeed Github page](https://github.com/GopeedLab/gopeed).
 
 ### 7. BiglyBT Download Manager
 
@@ -704,7 +704,7 @@ Some common features associated with BiglyBT are as summarised below.
 
 #### Usage and Installation
 
-BiglyBT [Github Releases page](https://github.com/BiglySoftware/BiglyBT/releases) contains all the packages available for download and installation on various distributions. An installer script is also available as well as source code for those who would wish to build the application from the source code. Further, the latest release of BiglyBT is available in the APT Package index for easier installation.
+BiglyBT [Github Releases page](https://github.com/BiglySoftware/BiglyBT) contains all the packages available for download and installation on various distributions. An installer script is also available as well as source code for those who would wish to build the application from the source code. Further, the latest release of BiglyBT is available in the APT Package index for easier installation.
 
 ##### Step 1: Download and install BiglyBT
 
@@ -762,7 +762,7 @@ The download status is shown as below.
 
 As the download progresses, you can stop the download, Queue download, adjust download speed, delete download, resume download and so on.
 
-For more details, please visit the official [BiglyBT Github page]([GitHub - BiglySoftware/BiglyBT: Feature-filled Bittorrent client based on the Azureus open source project](https://github.com/BiglySoftware/BiglyBT)) 
+For more details, please visit the official [BiglyBT Github page](https://github.com/BiglySoftware/BiglyBT) 
 
 ### 8. Aria2 Download Manager
 
@@ -933,9 +933,9 @@ To download 2 torrents:
 aria2c -j2 file1.torrent file2.torrent
 ```
 
-For examples on aria2 usage, visit the [aria2c manual]([aria2c(1) &mdash; aria2 1.37.0 documentation](https://aria2.github.io/manual/en/html/aria2c.html#example))
+For examples on aria2 usage, visit the [aria2c manual](https://aria2.github.io/manual/en/html/aria2c.html#example)
 
-Users who wish to manage aria2 via GUI can do so by installing [WebUI-Aria2]([GitHub - ziahamza/webui-aria2: The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.](https://github.com/ziahamza/webui-aria2#)) . To have a deeper understanding of aria2, please refer to [aria2 Github Page]([GitHub - aria2/aria2: aria2 is a lightweight multi-protocol &amp; multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.](https://github.com/aria2/aria2)).
+Users who wish to manage aria2 via GUI can do so by installing [WebUI-Aria2](https://github.com/ziahamza/webui-aria2#) . To have a deeper understanding of aria2, please refer to [aria2 Github Page](https://github.com/aria2/aria2).
 
 ### 9. Transgui Download Manager
 
@@ -975,7 +975,7 @@ Some of the features associated with Transgui are as highlighted below:
 
 #### Installation and Usage
 
-The latest Transgui releases for download are available on the [Github Releases](GitHub](https://github.com/transmission-remote-gui/transgui/releases)) page for various distributions. These packages are for building the application from source code. Precompiled program binaries for i386 and x86_64 Linux architectures exist in package managers for these Linux architectures. For this documentation we will use this method.
+The latest Transgui releases for download are available on the [Github Releases](https://github.com/transmission-remote-gui/transgui/releases) page for various distributions. These packages are for building the application from source code. Precompiled program binaries for i386 and x86_64 Linux architectures exist in package managers for these Linux architectures. For this documentation we will use this method.
 
 ##### Step 1 : Install Transgui on Ubuntu Desktop
 
