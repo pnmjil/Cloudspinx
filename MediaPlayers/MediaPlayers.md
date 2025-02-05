@@ -58,4 +58,64 @@ For more details on this amazing Media Player, please visit the [MPV Manual](htt
 
 #### Installation and Usage
 
-To install MPV Media Player on Ubuntu Desktop, do the following.
+To install MPV Media Player on Ubuntu Desktop, follow the steps below.
+
+##### Step 1 : Download MPV Media Player
+
+Navigate to the [MPV Github releases](https://github.com/mpv-player/mpv/releases) page for the latest MPV media player release if you would wish to build the application from the source code.
+
+The MPV media player packages are available in Ubuntu APT package index. The package can be searched using the commands below which will list for you the mpv packages available for installation.
+
+```bash
+apt search mpv
+apt list | grep mpv
+apt-cache search mpv
+```
+
+##### Step 2: Install MPV Media Player
+
+MPV Media Player can be installed directly using the APT package manager. Navigate to your terminal and run the command below:
+
+```bash
+sudo apt install mpv
+```
+
+##### Step 3: Launch MPV Player
+
+After successful installation, you can launch the application by navigating to **Application menu** >> **Activities** then search for **MPV Media Player** 
+
+![LaunchMPV.JPG](./Images/MPVImages/LaunchMPV.JPG)
+
+Alternatively you can launch MPV Media Player on the command terminal by the command below.
+
+```bash
+mpv
+```
+
+Launching MPV using the mpv command doesnt open anything as the command expects you to supply either the path to your video/audio file, URL and so on. We will examine this in the usage.
+
+##### Step 4: MPV Media Player Usage
+
+To stream a video/audio from URL source, copy the video/audio URL and launch it on the command terminal as shown below.
+
+```bash
+mpv <url to your video/audio>
+## example ##
+mpv https://www.youtube.com/watch?v=HEBvdSI0wGQ
+```
+
+This opens the video stream as below.
+
+![](./Images/MPVImages/LaunchMPVFromURL.JPG)
+
+If the user desires to start the stream at a specific time, he can do this by running the command below.
+
+```bash
+mpv --start=120 https://www.youtube.com/watch?v=HEBvdSI0wGQ
+```
+
+The command above will start your stream at the second minute.
+
+![](./Images/MPVImages/LaunchMPVTimely.JPG)
+
+
