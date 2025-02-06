@@ -118,4 +118,146 @@ The command above will start your stream at the second minute.
 
 ![](./Images/MPVImages/LaunchMPVTimely.JPG)
 
+To loop through the video, run the command:
 
+```bash
+mpv --loop <your URL or /path/to/your/video.mp4
+```
+
+To play a video in full screen mode
+
+```bash
+mpv --fs /path/to/your/video.mp4
+```
+
+To adjust volume of the video
+
+```bash
+mpv --volume=75 /path/to/your/video.mp4
+```
+
+To see a list of options you can use with MPV Media Player
+
+```bash
+mpv --help
+```
+
+To play your audio file in the background as you work, add an ampersand at the end of the command.
+
+```bash
+mpv /path/to/audio.mp3 &
+```
+
+To read more about MPV Media Player, access the [MPV-Player Github page](https://github.com/mpv-player/mpv)
+
+### 2. SMPlayer
+
+SMPlayer is a free media player for Windows, Linux and Mac OS with built-in codecs which enables the player to play all video and audio formats without needing installation of other external codecs. SMPlayer distinguishes itself from other media players due to its capability to remember the settings of all the files you play on the player. 
+
+SMPlayer is a GUI based with ability to play Youtube videos and download titles.
+
+#### Features
+
+SMPlayer distinguishes itself as key media player due to some of the features highlighted below.
+
+- SMPlayer supports majority of the well known media formats e.g avi, mp4, mkv, mpeg, mov, divx, h.264 due to its built-in codecs.
+
+- SMPlayer has support for Youtube with a plugin to help the user to search for Youtube videos.
+
+- Supports several skins and icon themes to change the way player looks like.
+
+- Has ability to search and download subtitles from open subtitles website.
+
+- Supports video and audio filters.
+
+- Ability to tweak the video/audio playback speed, audio adjustment and subtitle delays, video equalizer etc
+
+- Available in multiple languages
+
+- Available for Windows, Linux and Mac OS.
+
+- SMPlayer is free and opensource licensed under GPL license.
+
+- Uses MPlayer as its playback engine. 
+
+#### Installation and Usage
+
+SMPlayer source code is avaliable for Downloads on the official [SMPlayer Downloads page](https://www.smplayer.info/en/downloads) which maintains packages for Windows, Linux and Mac OS. 
+
+To install SMPlayer on Ubuntu Desktop, carryout the steps below. The latest releases for SMPlayer are versioned at SMPlayer official [Github page](https://github.com/smplayer-dev/smplayer/releases). 
+
+##### Step 1 : Add the SMPlayer repository
+
+To easily install and manage the SMPlayer on Ubuntu, you need to add the official SMPlayer repositories on your system. This also helps to include some missing and updated libraries that might not already exist in the prebuilt SMPlayer libraries. Run the command below.
+
+```bash
+sudo add-apt-repository ppa:rvm/smplayer 
+```
+
+Note : The official repository might not be supported in latest version of Ubuntu distributions i.e from **Ubuntu 24.XX** 
+
+Then update your system for the new changes to be effected.
+
+```bash
+sudo apt -y update 
+```
+
+If the method above throws an error, then remove the PPA and install SMPlayer directly from the packages maintained in the APT package index.
+
+```bash
+sudo add-apt-repository --remove ppa:rvm/smplayer
+```
+
+##### Step 2 : Install SMPlayer on Ubuntu
+
+SMPlayer media player packages are available for installation on Ubuntu's APT package index. To install SMPlayer on Ubuntu Desktop, execute the following command.
+
+```bash
+sudo apt install smplayer smplayer-themes
+```
+
+##### Step 3: Launch SMPlayer on Ubuntu
+
+To launch SMPlayer on Ubuntu navigate to **Applications Menu** >> **Show Apps** >> Search for **SMPlayer** 
+
+Alternatively using the command prompt issue the command.
+
+```bash
+smplayer
+```
+
+![SMPlayerLaunch.JPG](./Images/SMPlayerImages/SMPlayerLaunch.JPG)
+
+##### Step 4 : SMPlayer Usage
+
+To open your video/audio file, navigate to the **Menu** >> **Open** >> **File** to navigate to where your video/audio file is located. You could also drag-and-drop the file to the player to play it.
+
+When playing your video/audio file, you can **Pause**, **Stop** and even play the **Next** or **Previous**. To Stop the file, you can press **S** on the command line.
+
+As your Video/audio file is playing, you can control the volume by the volume slider using your mouse, or alternatively use the scroll wheel on your mouse. You could also use keyboard shortcuts i.e **+/-** or **Up/Down** to adjust the volume of the file you are playing.
+
+To jump to a specific part of your video/audio file, you can use the **seek bar** or keyboard shortcuts like **Left/Right** arrows or **PgUp/PgDn** 
+
+If the video you are watching is on a language you dont understand, you can load subtitles by navigating to **Subtitles** >> **Load Subtitle File** 
+
+You can create a playlist by adding multiple files by navigating to **Open** >> **File** then browsing to the location of your multiple files. The Playlist can then be managed on **Playlist** menu options.
+
+![SMPlayerPlaylist.JPG](./Images/SMPlayerImages/SMPlayerPlaylist.JPG)
+
+The video Aspect ration can be adjusted from **Video** >> **Aspect ratio**. To play video with old formats, navigate to **Video** >> **Deinterlace** 
+
+![SMPlayerDeinterlace.JPG](./Images/SMPlayerImages/SMPlayerDeinterlace.JPG)
+
+To stream your favorite audio/video from Youtube, copy the file URL and navigate to **Open** >> **URL** and paste the URL link.
+
+![SMPlayerURL.JPG](./Images/SMPlayerImages/SMPlayerURL.JPG)
+
+To take the screenshots from your playing video, **press Ctrl + S**. To watch your video in **Full Screen Mode**, go to **Video** then **Fullscreen** or by simply pressing **F** on the keyboard.
+
+![SMPlayerFullScreenMode.JPG](./Images/SMPlayerImages/SMPlayerFullScreenMode.JPG)
+
+To view a video from Youtube video, navigate to **View** >> **YouTube browser**
+
+![SMPlayerYoutube.JPG](./Images/SMPlayerImages/SMPlayerYoutube.JPG)
+
+To read more on SMPlayer, navigate to SMPlayer [Github Page ](https://github.com/smplayer-dev/smplayer) 
