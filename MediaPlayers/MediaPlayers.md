@@ -345,4 +345,22 @@ The interface looks like this.
 
 ![GnomeVideoLaunch.JPG](./Images/GnomeVideosImages/GnomeVideoLaunch.JPG)
 
+#### Method 2 : Install GNOME Videos from APT package index
+
+GNOME Videos packages are available by default in the APT packages repository which is a fundamental component of package management in Ubuntu and its derivatives.
+
+To install GNOME Videos directly from the APT package manager, issue the command below.
+
+```bash
+sudo apt install totem
+```
+
+This command installs all the dependencies and library required to install GNOME Videos on Ubuntu desktop.
+
+Launch the application by navigating to **Applications Menu** >> **Show Apps** >> Search for **Videos** 
+
+![GnomeVideosLaunch.png](./Images/GnomeVideosImages/GnomeVideosLaunch.png)
+
+Double click on the icon to land to the user interface
+
 
