@@ -261,3 +261,80 @@ To view a video from Youtube video, navigate to **View** >> **YouTube browser**
 ![SMPlayerYoutube.JPG](./Images/SMPlayerImages/SMPlayerYoutube.JPG)
 
 To read more on SMPlayer, navigate to SMPlayer [Github Page ](https://github.com/smplayer-dev/smplayer) 
+
+### 3. Gnome Videos
+
+The official media player for the GNOME desktop environment is Gnome Videos formerly known as Totem. This player uses Clutter and GTK+ toolkits. All GNOME versions from 2.10 has the player included by default making it the defacto media player for all GNOME desktop environments. For playback, Videos uses GStreamer framework or can be configured to use Xine libraries instead of GStreamer. The developers have enhanced GStreamer to be the core framework for playback services in Gnome Videos dropping the support for Xine backend.
+
+Videos automatically gathers all your videos in one place and all the user has to do is pick his movie and play it. Another key feature is the players ability to group several video channels making the accessibility of your videos very easy. Additionally, the media player has an easy to use user interface. 
+
+#### Features
+
+Some of the features associated with Gnome Videos are highlighted below.
+
+- GStreamer allows Gnome Videos to support a large number media formats.
+
+- The Gnome Videos configured to use Xine has a better encrypted DVD playback support and DVD navigation support.
+
+- Its easily integrated with GNOME desktop environment and its file manager i.e GNOME files.
+
+- Supports a huge number of plugins which allows the player to support multiple media formats.
+
+- Supports multiple playlist formats e.g M3U, XSPF, SMIL, Windows Media Player playlists, RealAudio etc.
+
+- Supports Full-screen video playback with ability to control the video brightness, contrast and saturation.
+
+- Supports stereophonic sound.
+
+- Could also be supported remotely on computers with an infrared port using LIRC.
+
+- Supports loading of external subtitles manually or automatically using the command line interface.
+
+- Has an easy to use interface.
+
+- Supports direct playback from online video channels
+
+- Supports multiple video decoding mechanisms e.g UVD, PureVideo, QuickSync etc for video acceleration. 
+
+#### Installation and Usage
+
+Gnome Videos package is available for installation from the APT package index. To install the media player carryout the following steps.
+
+##### Method 1 : Install Gnome Videos via Flathub
+
+Flathub is a centralised repository that contains multiple software that Linux users can install in their distributions. 
+
+To use Flathub, you must install it in your system first if not already installed.
+
+```bash
+sudo apt install flatpak
+```
+
+Add the Flathub repository.
+
+```bash
+ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+For a GUI to manage Flatpak applications, you can **optionally** install GNOME Software plugin.
+
+```bash
+sudo apt install gnome-software-plugin-flatpak
+sudo reboot 
+```
+
+Search for the application in the Flathub repository
+
+```bash
+sudo flatpak search totem
+```
+
+Install the Gnome Videos application
+
+```bash
+sudo flatpak install flathub org.gnome.Totem
+```
+
+Agree with the onscreen prompts to install the application. Once the installation is complete, run GNOME Videos by the command below.
+
+
