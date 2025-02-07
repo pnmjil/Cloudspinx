@@ -337,4 +337,12 @@ sudo flatpak install flathub org.gnome.Totem
 
 Agree with the onscreen prompts to install the application. Once the installation is complete, run GNOME Videos by the command below.
 
+```bash
+flatpak run org.gnome.Totem
+```
+
+The interface looks like this.
+
+![GnomeVideoLaunch.JPG](./Images/GnomeVideosImages/GnomeVideoLaunch.JPG)
+
 
