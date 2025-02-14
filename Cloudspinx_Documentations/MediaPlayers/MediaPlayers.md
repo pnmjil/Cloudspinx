@@ -518,3 +518,50 @@ The **Settings Tab** has other important aspects you can set for your movies lik
 ![HarunaSettings.JPG](./Images/HarunaImages/HarunaSettings.JPG)
 
 Read more about Haruna on the Official [Github Page](https://github.com/KDE/haruna) 
+
+### 5. QMPlay2 - Qt Media Player 2
+
+QMPlay2 is an open source multiplatform video and audio player that plays all formats supported by FFmpeg, libmodplug and SFX based on QT. QMPlay2 supports Audio CD, raw files, Rayman 2 music and chiptunes. QMPlay2 is available for installation for GNU/Linux, OS X and Windows systems.
+
+QMPlay2 is a lightweight media player that helps the users to listen to online radio stations allowing the users to download videos from the internet. It has a fully customizable interface and can play online audio streams. Qt Media Player 2 contains Youtube. MyFreeMP3 and internet radio browsers.
+
+#### Features
+
+Features associated with QMPlay2 include:-
+
+- Supports hardware acceleration e.g VDPAU and VA-API via OpenGL and Vulkan video output.
+
+- Hardware accelerated video decoding uses its own video filtering
+
+- Deinterlacing is automatically enabled when corresponding videos are detected.
+
+- Supports split channels and can be controlled via mpris D-Bus.
+
+- The interface has widgets that can easily be switched on or off, making the player customizable.
+
+- Can be installed in Linux, Windows and macOS.
+
+- Has a media browser that helps the user to search for his/her favorite song on the internet.
+
+- Multimedia keys works automatically without requiring manual configuration.
+
+- Its interface is built on Qt.
+
+- Enables the spherical view of YouTube 360 degrees videos.
+
+- Supports most codecs used by FFmpeg
+
+#### Installation and Usage
+
+To install QMPlay2 on Ubuntu Desktop and its derivatives, follow the steps below.
+
+##### Step 1: Install QMPlay2 on Ubuntu Desktop
+
+Github maintains QMPlay2 [Latest release](https://github.com/zaps166/QMPlay2/releases) .Grab the latest release for installation if you like building from source code.
+
+Alternatively, install QMPlay2 via PPA maintained by the QMPlay2 developer by the following command.
+
+```bash
+sudo apt update
+sudo add-apt-repository ppa:tomtomtom/qmplay2
+```
