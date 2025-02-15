@@ -638,3 +638,9 @@ The Playlist has various controls like loading a list of playlist, saving your p
 As seen in the introduction of the player, QMPlay2 supports Internet radios. To see the supported radio channels, navigate to Internet radios to see the list of all the supported radio channels.
 
 ![QMPlay2InternetRadio.JPG](./Images/QMPlay2Images/QMPlay2InternetRadio.JPG)
+
+QMPlay2 supports several Widgets.
+
+![QMPlay2Widgets.JPG](./Images/QMPlay2Images/QMPlay2Widgets.JPG)
+
+Read more on QMPlayer on the official [Github Page](https://github.com/zaps166/QMPlay2).
