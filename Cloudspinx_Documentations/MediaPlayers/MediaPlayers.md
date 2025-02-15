@@ -555,13 +555,86 @@ Features associated with QMPlay2 include:-
 
 To install QMPlay2 on Ubuntu Desktop and its derivatives, follow the steps below.
 
-##### Step 1: Install QMPlay2 on Ubuntu Desktop
+##### Method 1: Install QMPlay2 via APT package index
 
 Github maintains QMPlay2 [Latest release](https://github.com/zaps166/QMPlay2/releases) .Grab the latest release for installation if you like building from source code.
 
 Alternatively, install QMPlay2 via PPA maintained by the QMPlay2 developer by the following command.
 
 ```bash
-sudo apt update
-sudo add-apt-repository ppa:tomtomtom/qmplay2
+sudo add-apt-repository ppa:tomtomtom/qmplay2 -y
 ```
+
+Update the system.
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+
+Install QMPlay2 with the command below.
+
+```bash
+sudo apt install qmplay2 -y
+```
+
+To launch QMPlay2, navigate to **Applications Menu** >> **Show Apps** >> search for QMPlay2.
+
+![QMPlay2Launch.JPG](./Images/QMPlay2Images/QMPlay2Launch.JPG)
+
+##### Method 2: Install QMPlay2 via Flatpak
+
+Begin by installing Flatpak in your system.
+
+```bash
+sudo apt install flatpak
+```
+
+Then install GNOME Software Flatpak plugin to help the user install applications without needing the commandline.
+
+```bash
+sudo apt install gnome-software-plugin-flatpak
+```
+
+Next add the Flathub repository to access Flatpak applications.
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+```
+
+Restart your system then install QMPlay2 with the command below.
+
+```bash
+sudo reboot
+flatpak install flathub io.github.zaps166.QMPlay2 -y
+```
+
+Finally run the application.
+
+```bash
+flatpak run io.github.zaps166.QMPlay2
+```
+
+The command opens the User Interface as below.
+
+![QMPlay2UserInterface.JPG](./Images/QMPlay2Images/QMPlay2UserInterface.JPG)
+
+#### QMPlay2 Usage
+
+To play a media file, drag and drop your file into the player or alternatively navigate to **Playlist** >> **Add** then select the location of your media file.
+
+![QMPlay2AddMediaFile.JPG](./Images/QMPlay2Images/QMPlay2AddMediaFile.JPG)
+
+To stream a Youtube Video, navigate to YouTube Tab on the bottom right side and paste the YouTube link on the search tab and press enter.
+
+![QMPlay2YouTubeStream.JPG](./Images/QMPlay2Images/QMPlay2YouTubeStream.JPG)
+
+The menu has basic controls for playing video, pausing video, stopping video, playing next movie etc. The volume control is also accessible through the user interface or simply by using the mouse scroll.
+
+The Playlist has various controls like loading a list of playlist, saving your preffered playlist, removing playlists, collapsing playlists and so on.
+
+![QMPlay2Playlist.JPG](./Images/QMPlay2Images/QMPlay2Playlist.JPG)
+
+As seen in the introduction of the player, QMPlay2 supports Internet radios. To see the supported radio channels, navigate to Internet radios to see the list of all the supported radio channels.
+
+![QMPlay2InternetRadio.JPG](./Images/QMPlay2Images/QMPlay2InternetRadio.JPG)
