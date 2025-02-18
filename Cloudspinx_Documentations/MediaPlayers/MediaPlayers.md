@@ -599,7 +599,6 @@ Next add the Flathub repository to access Flatpak applications.
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
 ```
 
 Restart your system then install QMPlay2 with the command below.
@@ -644,3 +643,103 @@ QMPlay2 supports several Widgets.
 ![QMPlay2Widgets.JPG](./Images/QMPlay2Images/QMPlay2Widgets.JPG)
 
 Read more on QMPlayer on the official [Github Page](https://github.com/zaps166/QMPlay2).
+
+### 6. Kaffeine Media Player
+
+Kaffeine is Unix-like media player developed and maintained by KDE with excellent support for digital TV (DVB). It has a user friendly interface and by default it uses libVLC media framework with support for GStreamer as well. A Mozilla plugin for the player exists to support streaming of content over the web. Kaffeine Media Player is written in C++ and is available in multiple languages. Having a Unix-like operating system, its licensed under GPL-2.0-or-later and supports use of MPlayer projects binary codecs for proprietary formats.
+
+#### Features
+
+Some key features associated with Kaffeine Media Player include the following.
+
+- Supports digital TV (DVB-C/S/S2/T, ATSC, CI/CAM), DVD, Video CD and CD audio.
+
+- Has an easy to use user interface.
+
+- Supports Mozilla plugin for web streaming of content.
+
+- Available in multiple languages.
+
+#### Installation and Usage
+
+Kaffeine Media Player can be installed using APT package manager as well as downloading it from Flathub.
+
+##### Method 1: Install Kaffeine via Flatpak
+
+To install Kaffeine via Flathub, follow the steps below.
+
+###### Step 1 : Install Flatpak
+
+Install Flatpak on Ubuntu with the command below.
+
+```bash
+sudo apt install flatpak
+```
+
+###### Step 2 : Install GNOME Software Flatpak plugin
+
+The GNOME Software plugin makes it possible to install applications without the need for command line.
+
+```bash
+sudo apt install gnome-software-plugin-flatpak
+```
+
+###### Step 3 : Add the Flathub repository
+
+Enable Flathub repository in your system to allow you access the Flatpak applications then restart your system.
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+```
+
+###### Step 4 : Install Kaffeine Media Player
+
+To install Kaffeine, simply run the command below.
+
+```bash
+sudo flatpak install flathub org.kde.kaffeine -y
+```
+
+###### Step 5 : Run Kaffeine Media Player
+
+To launch the player, run the command below.
+
+```bash
+flatpak run org.kde.kaffeine
+```
+
+Kaffeine Media Player opens as below.
+
+![Kaffeine-Run.JPG](./Images/KaffeineImages/Kaffeine-Run.JPG)
+
+##### Method 2 : Install Kaffeine using APT package manager
+
+Another method to install Kaffeine on Ubuntu is by the use of APT package manager.
+
+###### Step 1 : Search the packages on APT Index
+
+Run the commands below to check if Kaffeine packages available for installation exists in the APT Package index.
+
+```bash
+apt search kaffeine
+apt-cache search kaffeine
+```
+
+###### Step 2 : Install Kaffeine on Ubuntu
+
+Install the Kaffeine application on Ubuntu system.
+
+```bash
+sudo apt update 
+sudo apt install kaffeine
+```
+
+The command will install all the dependencies needed to install Kaffeine in Ubuntu system as well as installing the application.
+
+###### Step 3 : Launch Kaffeine application
+
+Launch the application by navigating to **Applications Menu** >> **Show Apps** >> Search for **Kaffeine** 
+
+![Kaffeine-Launch.JPG](./Images/KaffeineImages/Kaffeine-Launch.JPG)
+
+#### Kaffeine Media Player Usage
