@@ -740,6 +740,26 @@ The command will install all the dependencies needed to install Kaffeine in Ubun
 
 Launch the application by navigating to **Applications Menu** >> **Show Apps** >> Search for **Kaffeine** 
 
-![Kaffeine-Launch.JPG](./Images/KaffeineImages/Kaffeine-Launch.JPG)
+![Kaffeine-Launch.JPG](./Images/KaffeineImages/Kaffeine-Launch.JPG) 
+
+Double-click the icon to launch the application.
+
+![Kaffeine-User-Interface.JPG](./Images/KaffeineImages/Kaffeine-User-Interface.JPG)
 
 #### Kaffeine Media Player Usage
+
+To play a video locally stored in your system, navigate to **File** >> **Open** >> then navigate to the location of your video.
+
+To stream a video from internet, navigate to **File** >> **Open URL** then you are ptompted to *Enter a URL* 
+
+![KaffeineOpenUrl.JPG](./Images/KaffeineImages/KaffeineOpenUrl.JPG)
+
+You could also play Audio CD, Video CD, play DVD, Open Recent files and also play DVD from a folder.
+
+Under **Playback** you have options to Play the video in Minimal Mode or Full Screen Mode. In addition, you can add Subtitles and manage the Audio and Video. You can jump to a certain Position of a movie, skip a position, play a certain chapter etc.
+
+![KaffeinePlayback.JPG](./Images/KaffeineImages/KaffeinePlayback.JPG)
+
+On the **Playlist** , the user can *add a New playlist* from a source, Rename a playlist, Remove a playlist, Save a playlist, save a random file as favorite for easier accessibility and save a Repeat Playlist.
+
+On the **Television** tab, the user can 
