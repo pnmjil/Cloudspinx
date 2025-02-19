@@ -883,4 +883,4 @@ Audacious supports skins to help the user to change its appearance. The skins ca
 
 ![AudaciousSkins.JPG](./Images/AudaciousImages/AudaciousSkins.JPG)
 
-Read more about Audacious Media Player, navigate to [Audacious Github](https://github.com/audacious-media-player/audacious) Page.
+To Read more about Audacious Media Player, navigate to [Audacious Github](https://github.com/audacious-media-player/audacious) Page.
