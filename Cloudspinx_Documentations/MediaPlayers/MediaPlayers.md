@@ -762,4 +762,125 @@ Under **Playback** you have options to Play the video in Minimal Mode or Full Sc
 
 On the **Playlist** , the user can *add a New playlist* from a source, Rename a playlist, Remove a playlist, Save a playlist, save a random file as favorite for easier accessibility and save a Repeat Playlist.
 
-On the **Television** tab, the user can 
+On the **Television** tab, the user can configure his DVB card with Kaffeine to have his Channels and program guides.
+
+![KaffeineTelevision.JPG](./Images/KaffeineImages/KaffeineTelevision.JPG)
+
+The volume is controlled via an equalizer while subtitles are loaded automatically as your video file is playing.
+
+Read more on Kaffeine Media Player on the [Github Page](https://github.com/KDE/kaffeine).
+
+### 7 : Audicious Media Player
+
+Audicious Media Player is a lightweight, open source, versatile audio player that runs on Linux, BSD derivatives, macOS and Windows. Audicious Media Player doesnt compete for computer resources with other programs. It has an ultra modern Qt/GTK themed interface with Winamp Classic skins. 
+
+During it's operations, the user easily drags and drops folders and individual song files to play them. 
+
+#### Features
+
+Features associated with Audicious Media Player include the following:-
+
+- Open source, lightweight and versatile.
+
+- The user is able to listen to CD or stream music from the web.
+
+- Has a graphical equalizer to control and manage your sound.
+
+- Supports multiple plugins to add functionality.
+
+- It as cross platform in nature with ability to run across Linux, macOS and Windows.
+
+- It utilises very minimal computer resources.
+
+- Has an ultra modern Qt/GTK themed interface
+
+- Has a vibrant community of users with active forums to help users with the issues they encounter as they use the player.
+
+- It is very easy to install with already preconfigured packages.
+
+#### Installation and Usage
+
+Audicious and audicious plugins repositories are hosted on [Github](https://github.com/audacious-media-player)). Installation of Audicious on Ubuntu Desktop and its derivatives can be achieved by following the steps.
+
+#### Method 1 : Install Audicious Media Player via APT
+
+Audicious Media Player can be installed directly from APT package repositories by the command below. This is the recommended 
+
+```bash
+ sudo apt install audacious
+```
+
+This command installs all the dependencies required to install Audicious Media player  and Audacious plugins.
+
+Launch the application by navigating to **Applications Manager** >> **Show Apps** >> Search for Audicious
+
+![AudaciousAppLaunch.JPG](./Images/AudaciousImages/AudaciousAppLaunch.JPG)
+
+Double click the icon to open the user interface as below.
+
+![AudaciousUserInterface.JPG](./Images/AudaciousImages/AudaciousUserInterface.JPG)
+
+#### Method 2 : Install Audacious Media Player using Flatpak
+
+Audacious Media Player can also be installed via Flatpak using the steps below.
+
+###### Step 1 : Install Flatpak
+
+If Flatpak is not already installed, run the command below to install it.
+
+```bash
+sudo apt install flatpak
+```
+
+###### Step 2 : Add Flathub repository
+
+Enable Flathub repository in your system to allow you access the Flatpak applications then restart your system.
+
+```bash
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo reboot
+```
+
+###### Step 3 : Install Audacious
+
+Install Audacious Media Player with the command below.
+
+```bash
+sudo flatpak install flathub org.atheme.audacious -y
+```
+
+###### Step 4 : Launch Audacious
+
+Launch Audacious with the command below.
+
+```bash
+audacious 
+```
+
+![AudaciousLaunch.JPG](./Images/AudaciousImages/AudaciousLaunch.JPG)
+
+#### Usage
+
+To Add a Music file navigate to **File** > **Open Files** then navigate to the location of your music file and select the file. To play a music file dfrom the web, navigate to **File** > **Open URL** and paste the link to the music file  from the web.
+
+![AudaciousAddURL.JPG](./Images/AudaciousImages/AudaciousAddURL.JPG)
+
+To see all the properties under Playback like play a music file, pause, stop, previous and so on, navigate to Playback and see a dropdown of the properties you can play with.
+
+![AudiciousPlayback.JPG](./Images/AudaciousImages/AudiciousPlayback.JPG)
+
+Under **Services**, the user can **play CD** or **Add CD**. From the Services the user could also explore the **Plugins** 
+
+![AudaciousPlugins.JPG](./Images/AudaciousImages/AudaciousPlugins.JPG)
+
+The user can control the *volume* of the music file by navigating to **Output** and then a list of all the properties like Volume Up, Volume Down, Equalizer, Effects and more.
+
+Audacious also supports visualizations. Navigate to **View** > **Visualizations** 
+
+![AudaciousVisualizations.JPG](./Images/AudaciousImages/AudaciousVisualizations.JPG)
+
+Audacious supports skins to help the user to change its appearance. The skins can be downloaded online and installed through the preferences. Navigate to **File** > **Settings** to access Audacious Settings.
+
+![AudaciousSkins.JPG](./Images/AudaciousImages/AudaciousSkins.JPG)
+
+Read more about Audacious Media Player, navigate to [Audacious Github](https://github.com/audacious-media-player/audacious) Page.
