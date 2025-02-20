@@ -890,3 +890,21 @@ To Read more about Audacious Media Player, navigate to [Audacious Github](https:
 Amarok is a free and open-source audio music player written in C++ that is supported by Linux, macOS and Windows as well as other Unix-like operating systems. The player is developed and maintained by KDE project and licensed under GPL-2.0-or-later. Amarok Media Player is based on Qt5 with excellent support for FFmpeg 5. Further the player has native support for ReplayGain. Amarok is among the oldest Linux music players with only 3 releases since its the initial release in 2003, 21 years ago.
 
 #### Features
+
+Features associated with Amarok Media player are as follows.
+
+- Supports a wide variety of music formats.
+
+- Has the ability to retrieve the cover art information and lyrics from the internet.
+
+- It is cross-platform in nature being available for installation in Linux, Windows, macOS and UNix-like operating systems.
+
+- Has an easy to use interface.
+
+- Supports dynamic playlists, bookmarking of playlists, file tracking and smooth fade-out settings.
+
+- Integrates with online music services like Last.fm, OPML podcast, Jamendo, Magnatune and Ampache.
+
+- Can be used to manage music on iPods and other MP3 players.
+
+- The interface is cute with users music collection, saved playlists and internet radio stations aligned on the left with active playlists on the right. 
