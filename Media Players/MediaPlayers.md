@@ -884,3 +884,9 @@ Audacious supports skins to help the user to change its appearance. The skins ca
 ![AudaciousSkins.JPG](./Images/AudaciousImages/AudaciousSkins.JPG)
 
 To Read more about Audacious Media Player, navigate to [Audacious Github](https://github.com/audacious-media-player/audacious) Page.
+
+### 8. Amarok Media Player
+
+Amarok is a free and open-source audio music player written in C++ that is supported by Linux, macOS and Windows as well as other Unix-like operating systems. The player is developed and maintained by KDE project and licensed under GPL-2.0-or-later. Amarok Media Player is based on Qt5 with excellent support for FFmpeg 5. Further the player has native support for ReplayGain. Amarok is among the oldest Linux music players with only 3 releases since its the initial release in 2003, 21 years ago.
+
+#### Features
