@@ -908,3 +908,91 @@ Features associated with Amarok Media player are as follows.
 - Can be used to manage music on iPods and other MP3 players.
 
 - The interface is cute with users music collection, saved playlists and internet radio stations aligned on the left with active playlists on the right. 
+  
+  #### Installation and Usage
+
+Amarok is available for installation from APT package index as well at from Flathub via Flatpak.
+
+The recommended method of installation is via the package manager. 
+
+##### Method 1 : Installation via APT package manager
+
+To install Amarok via APT package manager, run the command below.
+
+```bash
+sudo apt install amarok -y
+```
+
+You can view the version installed by the command:
+
+```bash
+apt show amarok 
+```
+
+To launch the application, navigate to **Application Menu** > **Show Apps** > type Amarok. 
+
+![AmarokLaunch.JPG](./Images/AmarokImages/AmarokLaunch.JPG)
+
+The User Interface will look like this.
+
+![AmarokUserInterface.JPG](./Images/AmarokImages/AmarokUserInterface.JPG)
+
+##### Method 2 : Installation via Flathub
+
+To install Amarok via Flathub, follow the steps below.
+
+###### Step 1 : Install Flatpak
+
+```bash
+sudo apt install flatpak
+```
+
+###### Step 2 : Install GNOME software Flatpak plugin
+
+```bash
+sudo apt install gnome-software-plugin-flatpak
+
+```
+
+###### Step 3 : Add the Flathub repository and restart the system
+
+```bash
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+sudo reboot 
+```
+
+###### Step 4 : Install Amarok on Ubuntu Desktop
+
+To install Amarok on Ubuntu Desktop, run the command below.
+
+```bash
+sudo flatpak install flathub org.kde.amarok -y
+```
+
+To launch the application, run the command 
+
+```bash
+flatpak run org.kde.amarok
+```
+
+The command opens the user interface.
+
+![AmarokLaunchViaFlatpak.JPG](./Images/AmarokImages/AmarokLaunchViaFlatpak.JPG)
+
+Amarok offers standard playback functionalities like pausing, stopping, shuffling and repeating a music file.
+
+![AmarokPlaybackProperties.JPG](./Images/AmarokImages/AmarokPlaybackProperties.JPG)
+
+To manage the music library, the user can browse for the music files by on the local computer, manage his playlists, search for internet music files as well as listening to podcasts.
+
+The *Playlist tab* helps the user to Add Media, Add Stream, Export playlist, clear playlists, remove duplicate music files, edit music queue and grouping playlist layouts.
+
+On the *Tools tab*, the user is able to bookmark music files for easier accessibility, open the Equalizer to balance the music properties as well as updating his music collection.
+
+The Settings tab enables the user to configure Amarok parameters like plugins, database, playback and so on.
+
+![AmarokConfigurationProperties.JPG](./Images/AmarokImages/AmarokConfigurationProperties.JPG)
+
+Amarok easily integrates with internet services to enhance the music listening experience. **Last.fm** scrobbles users played tracks to get personalised recommendations. The **internet radio** allows the user to access and listen to various internet radios stations. **Magnatune.com** offers a unique music collection to the user.
+
+Read more about Amarok on the official [Github page](https://github.com/deltazefiro/Amarok-Hider).
