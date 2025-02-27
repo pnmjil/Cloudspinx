@@ -951,7 +951,6 @@ sudo apt install flatpak
 
 ```bash
 sudo apt install gnome-software-plugin-flatpak
-
 ```
 
 ###### Step 3 : Add the Flathub repository and restart the system
@@ -996,3 +995,35 @@ The Settings tab enables the user to configure Amarok parameters like plugins, d
 Amarok easily integrates with internet services to enhance the music listening experience. **Last.fm** scrobbles users played tracks to get personalised recommendations. The **internet radio** allows the user to access and listen to various internet radios stations. **Magnatune.com** offers a unique music collection to the user.
 
 Read more about Amarok on the official [Github page](https://github.com/deltazefiro/Amarok-Hider).
+
+### 9. Banshee Media Player
+
+Banshee Media Player is an open-source media player that can be installed across Windows, Linux and macOS. It is built upon Mono and Gtk and is written in C# and uses SQLite database library. It was initially known as Sonance until 2005 and is licensed under MIT. Banshee Media Player uses GStreamer for encoding and supports various decoding formats e.g MP3, FLAC and Ogg Vorbis.
+
+Banshee Media Player plays and imports audio CDs and supports multiple portable media players like Apple's iPod and other Android devices. Banshee was the default music player for Ubuntu and Linux Mint until it was replaced by Rhythmbox.
+
+#### Features
+
+Features associated with Banshee Media Player include the following:
+
+- Last.fm integration.
+
+- Album artwork fetching
+
+- Smart playlists
+
+- Has an iPod manager to help transferring of songs, videos and album art to and from the device.
+
+- Podcast support
+
+- Support multiple plugins making it extensible and customizable.
+
+- Supports internet radio stations
+
+- Adds an icon to the notification area in GNOME.
+
+- Cross-platform support (Windows, Linux, Mac OS)
+
+#### Installation and Usage
+
+Banshee is an older media player, and it might not be in the standard repositories of the very latest Ubuntu releases.
