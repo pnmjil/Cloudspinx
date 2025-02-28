@@ -1027,3 +1027,118 @@ Features associated with Banshee Media Player include the following:
 #### Installation and Usage
 
 Banshee is an older media player, and it might not be in the standard repositories of the very latest Ubuntu releases.
+
+### 10. Nuclear Media Player
+
+Nuclear media player is a free music streaming program that empowers you to listen to what you want, where you want and how you want for free. Nuclear supports Youtube, Soundcloud, Bandcamp as well as the local library in your workstation. Nuclear player is highly customizable and supports plugins to extend its functionalities. In addittion, Nuclear readily integrates with Last.fm and Mastodon and allows the user to import their favorite playlist and share it with other users. Nuclear has no ads and no tracking and is focused on streaming audio files from free sources. 
+
+#### Features
+
+Some of the features associated with Nuclear Media Player include the following:-
+
+- No ads
+
+- Scrobbling support to Last.fm
+
+- Support for Youtube, Soundcloud, Bandcamp 
+
+- Supports listening audio files from local library.
+
+- Maintains a list of favorite tracks.
+
+- The user can browse audio files by popularity and genre
+
+- Supports realtime lyrics.
+
+- Can be installed across Linux, Windows and MacOS.
+
+- Loads saved playlists by default
+
+- Allows for unlimited downloads from Youtube
+
+- Shows the newest releases with reviews for tracks and albums.
+  
+  For complete [featurelist](https://github.com/nukeop/nuclear?tab=readme-ov-file#features) visit the link.
+  
+  #### Installation & Usage
+
+Nuclear Media Player is not included in the default Ubuntu repositories and therefore APT cannot locate and install it. Nuclear is commonly installed via Snap and Flatpak.
+
+[Community-maintained packages](https://github.com/nukeop/nuclear?tab=readme-ov-file#community-maintained-packages) are also available for several distributions and can be downloaded from the link highlighted.
+
+However, distribution-specific packages are available for downloads are available for download and installation. The packages can be downloaded at the official [Latest Releases](https://nuclearplayer.com/downloads)) page.
+
+##### Step 1 : Download the installation package.
+
+Download the latest releases by the command below.
+
+```bash
+VER=0.6.42
+wget https://github.com/nukeop/nuclear/releases/download/v$VER/nuclear-v$VER-amd64.deb
+```
+
+##### Step 2 : Install the package
+
+Install the downloaded package by the command below.
+
+```bash
+sudo apt install ./nuclear-v0.6.42-amd64.deb
+```
+
+If you wish to install Nuclear via Flatpak, issue the command below.
+
+```bash
+sudo flatpak install flathub org.js.nuclear.Nuclear -y
+```
+
+To install Nuclear via Snap
+
+```bash
+sudo snap install nuclear
+```
+
+Any of the method above installs Nuclear in your Ubuntu Desktop system.
+
+To launch the application on the commandline via Flatpak, run the command below.
+
+```bash
+flatpak run org.js.nuclear.Nuclear
+```
+
+The user interface looks like this:
+
+![NuclearUI.JPG](./Images/NuclearImages/NuclearUI.JPG)
+
+To launch the application from **Applications Menu** navigate to **Show Apps** > the search for Nuclear then double click the icon to launch the user interface.
+
+![NuclearIcon.JPG](./Images/NuclearImages/NuclearIcon.JPG)
+
+Upon launching the application, the user can easily see the *trending playlists* with their cover, the *top tracks* and *Genres*
+
+Nuclear allows the user to search for and stream music from various online platforms like Spotify, Audius, iTunesPodcast, Discogs and so on.
+
+![NuclearOnlineStreams.JPG](./Images/NuclearImages/NuclearOnlineStreams.JPG)
+
+The user is also able to search for artists, albums and songs and Nuclear will find the available streams from its supported sources.
+
+![NuclearSearch.JPG](./Images/NuclearImages/NuclearSearch.JPG)
+
+Nuclear offers the ability to download music from its sources. This should however be used responsibly to avoid copyright issues.
+
+![NuclearDownloads.JPG](./Images/NuclearImages/NuclearDownloads.JPG)
+
+Nuclear easily integrates with services like Last.fm and Mastodon.
+
+![NuclearSocialIntegration.JPG](./Images/NuclearImages/NuclearSocialIntegration.JPG)
+
+Nuclear allows the user to add plugins to extend its functionality.
+
+![NuclearPlugins.JPG](./Images/NuclearImages/NuclearPlugins.JPG)
+
+With Nuclear, the user could as well manage his local collections from a central location.
+
+![NuclearCollection.JPG](./Images/NuclearImages/NuclearCollection.JPG)
+
+Navigate through the player for more functionalities. 
+
+To read more about Nuclear media player, navigate to the official [Nuclear Github Page](https://github.com/nukeop/nuclear).
