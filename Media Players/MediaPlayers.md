@@ -1139,6 +1139,24 @@ With Nuclear, the user could as well manage his local collections from a central
 
 ![NuclearCollection.JPG](./Images/NuclearImages/NuclearCollection.JPG)
 
+Nuclear has *keyboard shortcuts* as below.
+
+- spacebar - Play/pause
+
+- enter - Start playback
+
+- up/down - increase/decrease volume.
+
+- left/right - seek backwards/forwards
+
+- alt+left/alt+right - go to previous/next page
+
+- ctrl+left/ctrl+right - previous/next track
+
+- ctrl+down/ctrl+up - mute/unmute
+
+- F12 and ctrl-I - Open developer tools
+
 Navigate through the player for more functionalities. 
 
 To read more about Nuclear media player, navigate to the official [Nuclear Github Page](https://github.com/nukeop/nuclear).
