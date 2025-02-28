@@ -1131,7 +1131,7 @@ Nuclear easily integrates with services like Last.fm and Mastodon.
 
 ![NuclearSocialIntegration.JPG](./Images/NuclearImages/NuclearSocialIntegration.JPG)
 
-Nuclear allows the user to add plugins to extend its functionality.
+Nuclear allows the user to add plugins to extend its functionality. Nuclear has three kinds of provider plugins i.e metadata, streaming and lyrics. Metadata providers powers the search engine. Streaming providers is where the actual music comes from while Lyrics providers are used to display the song lyrics.
 
 ![NuclearPlugins.JPG](./Images/NuclearImages/NuclearPlugins.JPG)
 
