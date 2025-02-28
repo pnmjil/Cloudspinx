@@ -1155,7 +1155,7 @@ Nuclear has *keyboard shortcuts* as below.
 
 - ctrl+down/ctrl+up - mute/unmute
 
-- F12 and ctrl-I - Open developer tools
+- F12 and ctrl+I - Open developer tools
 
 Navigate through the player for more functionalities. 
 
