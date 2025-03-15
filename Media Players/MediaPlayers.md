@@ -101,7 +101,7 @@ To stream a video/audio from URL source, copy the video/audio URL and launch it 
 ```bash
 mpv <url to your video/audio>
 ## example ##
-mpv https://www.youtube.com/watch?v=KNK-tmMz618
+mpv https://www.youtube.com/watch?v=ykzJ525nGaM
 ```
 
 This opens the video stream as below.
@@ -110,15 +110,21 @@ This opens the video stream as below.
 
 
 
+
+
 If the user desires to start the stream at a specific time, he can do this by running the command below.
 
 ```bash
-mpv --start=120 https://www.youtube.com/watch?v=KNK-tmMz618
+mpv --start=120 https://www.youtube.com/watch?v=ykzJ525nGaM
 ```
 
 The command above will start your stream at the second minute.
 
-![](./Images/MPVImages/LaunchMPVTimely.JPG)
+![LaunchMPVTimely.JPG](C:\Users\pndungu\Cloudspinx\Cloudspinx\Media%20Players\Images\MPVImages\LaunchMPVTimely.JPG)
+
+
+
+
 
 To loop through the video, run the command:
 
