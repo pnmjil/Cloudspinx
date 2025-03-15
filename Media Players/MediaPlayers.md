@@ -56,7 +56,7 @@ As seen on the brief introduction, its sufficient to note that MPV Media Player 
 
 For more details on this amazing Media Player, please visit the [MPV Manual](https://mpv.io/manual/master/).
 
-#### Installation and Usage
+### Installation and Usage
 
 To install MPV Media Player on Ubuntu Desktop, follow the steps below.
 
@@ -101,17 +101,19 @@ To stream a video/audio from URL source, copy the video/audio URL and launch it 
 ```bash
 mpv <url to your video/audio>
 ## example ##
-mpv https://www.youtube.com/watch?v=HEBvdSI0wGQ
+mpv https://www.youtube.com/watch?v=KNK-tmMz618
 ```
 
 This opens the video stream as below.
 
-![](./Images/MPVImages/LaunchMPVFromURL.JPG)
+![LaunchMPVFromURL.JPG](./Images/MPVImages/LaunchMPVFromURL.JPG)
+
+
 
 If the user desires to start the stream at a specific time, he can do this by running the command below.
 
 ```bash
-mpv --start=120 https://www.youtube.com/watch?v=HEBvdSI0wGQ
+mpv --start=120 https://www.youtube.com/watch?v=KNK-tmMz618
 ```
 
 The command above will start your stream at the second minute.
@@ -320,7 +322,6 @@ For a GUI to manage Flatpak applications, you can **optionally** install GNOME S
 
 ```bash
 sudo apt install gnome-software-plugin-flatpak
-sudo reboot 
 ```
 
 Search for the application in the Flathub repository
@@ -452,7 +453,6 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 Install Haruna by the command below.
 
 ```bash
-sudo reboot
 sudo flatpak install flathub org.kde.haruna
 ```
 
@@ -568,7 +568,7 @@ sudo add-apt-repository ppa:tomtomtom/qmplay2 -y
 Update the system.
 
 ```bash
-sudo apt update && sudo apt upgrade
+sudo apt update
 ```
 
 Install QMPlay2 with the command below.
@@ -604,7 +604,6 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 Restart your system then install QMPlay2 with the command below.
 
 ```bash
-sudo reboot
 flatpak install flathub io.github.zaps166.QMPlay2 -y
 ```
 
@@ -957,7 +956,6 @@ sudo apt install gnome-software-plugin-flatpak
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo reboot 
 ```
 
 ###### Step 4 : Install Amarok on Ubuntu Desktop
@@ -1082,7 +1080,7 @@ wget https://github.com/nukeop/nuclear/releases/download/v$VER/nuclear-v$VER-amd
 Install the downloaded package by the command below.
 
 ```bash
-sudo apt install ./nuclear-v0.6.42-amd64.deb
+sudo apt install ./nuclear-v$VER-amd64.deb
 ```
 
 If you wish to install Nuclear via Flatpak, issue the command below.
