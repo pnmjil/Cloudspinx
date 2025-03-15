@@ -120,7 +120,7 @@ mpv --start=120 https://www.youtube.com/watch?v=ykzJ525nGaM
 
 The command above will start your stream at the second minute.
 
-![LaunchMPVTimely.JPG](C:\Users\pndungu\Cloudspinx\Cloudspinx\Media%20Players\Images\MPVImages\LaunchMPVTimely.JPG)
+![LaunchMPVTimely.JPG](./Images/MPVImages/LaunchMPVTimely.JPG)
 
 
 
