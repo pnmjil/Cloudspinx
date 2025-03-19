@@ -9,3 +9,15 @@ Ethical and unethical hackers deploy these tools to achieve their roles in cyber
 #### How Remote Access Tools work.
 
 Remote Access Tools work on Client-Server model. The remote system runs the remote access tool software and acts as the server. The controlling system is the client and connects to the server using an IP address, port number or a fully qualified domain name. The connection occurs over an encrypted channel to avoid detection and for hardening the security.
+
+### Configuring SSH (Secure Shell) for Remote Access
+
+SSH is a network protocol that provides a secure tunnel to access a remote computer through an unsecured network. Communication between the client and server occurs using encryption and authentication to protect data and ensure secure remote login and data transfer. The client application connects to an SSH server to establish a secure connection.
+
+SSH ensures secure remote login, secure file transfer and port forwarding.
+
+To configure SSH for remote access on Ubuntu Desktop, carry the steps below.
+
+#### Install OpenSSH Server
+
+Begin by installing OpenSSH server on Ubuntu desktop.
