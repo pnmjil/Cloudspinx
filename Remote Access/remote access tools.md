@@ -14,10 +14,47 @@ Remote Access Tools work on Client-Server model. The remote system runs the remo
 
 SSH is a network protocol that provides a secure tunnel to access a remote computer through an unsecured network. Communication between the client and server occurs using encryption and authentication to protect data and ensure secure remote login and data transfer. The client application connects to an SSH server to establish a secure connection.
 
-SSH ensures secure remote login, secure file transfer and port forwarding.
+SSH ensures secure remote login, secure file transfer and port forwarding. OpenSSH comprises of open-source tools that implements Secure Shell protocol to facilitate secure, encrypted remote login and file transfer.
 
 To configure SSH for remote access on Ubuntu Desktop, carry the steps below.
 
-#### Install OpenSSH Server
+#### Step 1 : Install OpenSSH Server
 
-Begin by installing OpenSSH server on Ubuntu desktop.
+Install OpenSSH server on Ubuntu desktop by the command below.
+
+```bash
+sudo apt install openssh-server
+```
+
+#### Step 2 : Enable the SSH service
+
+Enable and start the SSH service by the commands below.
+
+```bash
+sudo systemctl enable ssh
+sudo systemctl start ssh
+```
+
+Confirm the status of the SSH service.
+
+```bash
+systemctl status ssh
+```
+
+#### Step 3 : Connect to a remote system
+
+To connect to a remote deskop, get its IP address, and the username of the remote system, then use ssh command as below.
+
+```bash
+ssh <username>@<remote_desktop_ip_address>
+```
+
+replace <**username**> and <**remote_desktop_ip_address**> with the actual remote system username and IP address.
+
+#### Step 4 : Configure Firewall (Optional)
+
+If your remote system sits behind an edge firewall, the default port SSH port 22 might be blocked for security enhancements. Allow SSH traffic through port 22 by the command below.
+
+```bash
+sudo ufw allow ssh
+```
