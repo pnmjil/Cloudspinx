@@ -90,3 +90,9 @@ Finally connect to the remote desktop via ssh command without supplying the pass
 ```bash
 ssh <username>@<remote_desktop_ip_address>
 ```
+
+### 2. Configuring VNC (Virtual Network Computing) for Remote Desktop Access
+
+VNC is a cross-platform screen sharing system that aids in remote control of a computer to allow the user to view and interact with the remote desktop as if he was sitting infront of the remote desktop.
+
+VNC operates on client/server model where VNC server is installed on the remote computer and a VNC viewer installed on the device used for remote access.
