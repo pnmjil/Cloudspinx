@@ -171,3 +171,5 @@ Restart the VNC Server so that the changes made can take effect.
 ```bash
 vncserver -localhost
 ```
+
+Appending the *-localhost* on the command binds the VNC Server to your localhost. This causes the VNC Server to allow connections that come from the localhost.
