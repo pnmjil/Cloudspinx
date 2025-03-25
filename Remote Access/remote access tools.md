@@ -127,7 +127,17 @@ The command will prompt you to set a password and verify it. The user is then pr
 
 #### Step 3 : Configure VNC Server
 
-Upon installation of the VNC Server, the default VNC Server startup configuration script is located in the home directory under *~/.vnc/xstartup* . Using your preffered editor open this file to adjust your configurations. But first stop the VNC instance to allow you make any further configurations by the running the following command.
+Upon installation of the VNC Server, the default VNC Server startup configuration script is located in the home directory under *~/.vnc/xstartup* . 
+
+This writing assumes that you already have a Desktop Environment running but if not, you can install it by running the command below.
+
+```bash
+sudo apt install ubuntu-desktop
+## For lighter alternative
+sudo apt install xfce4 xfce4-goodies
+```
+
+Stop the VNC instance to allow you to modify the VNC Server configurations by the running the following command.
 
 ```bash
 vncserver -kill :1
@@ -148,4 +158,16 @@ Modify the file with the below configs.
 #!/bin/bash
 xrdb $HOME/.Xresources
 startxfce4 &
+```
+
+To make sure VNC Server uses the new configurations, make the created file executable by the command below.
+
+```bash
+sudo chmod +x ~/.vnc/xstartup
+```
+
+Restart the VNC Server so that the changes made can take effect.
+
+```bash
+vncserver -localhost
 ```
