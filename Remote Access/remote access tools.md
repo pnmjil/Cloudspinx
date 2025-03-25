@@ -91,8 +91,61 @@ Finally connect to the remote desktop via ssh command without supplying the pass
 ssh <username>@<remote_desktop_ip_address>
 ```
 
-### 2. Configuring VNC (Virtual Network Computing) for Remote Desktop Access
+### 2. Configuring VNC (Virtual Network Computing) for Remote Desktop Access in Ubuntu Desktop.
 
 VNC is a cross-platform screen sharing system that aids in remote control of a computer to allow the user to view and interact with the remote desktop as if he was sitting infront of the remote desktop.
 
 VNC operates on client/server model where VNC server is installed on the remote computer and a VNC viewer installed on the device used for remote access.
+
+I will install [TightVNC](https://www.tightvnc.com/) server for demonstration purposes. TightVNC is a free and Open Source remote desktop software with an easy to use interface that lets the user to access and control a computer remotely over the network.
+
+Follow the steps below.
+
+#### Step 1 : Install and setup VNC Server
+
+As earlier stated, i will install TightVNC Server for demonstration purposes. TightVNC is available for installation in the default APT package index. This can be confirmed by the command below:
+
+```bash
+apt search tightvnc
+```
+
+To install the server, run the command below on the terminal.
+
+```bash
+sudo apt -y install tightvncserver
+```
+
+#### Step 2 : Set VNC Password
+
+To use TightVNC Server, you must set a password to access your desktops. To set VNC Password, run the command below.
+
+```bash
+vncserver
+```
+
+The command will prompt you to set a password and verify it. The user is then prompted to confirm if he would like to *enter a view-only password* . View-only password allows users to connect and observe the desktop remotely without being able to control the mouse and the keyboard. Type **n** and **Enter** to proceed. 
+
+#### Step 3 : Configure VNC Server
+
+Upon installation of the VNC Server, the default VNC Server startup configuration script is located in the home directory under *~/.vnc/xstartup* . Using your preffered editor open this file to adjust your configurations. But first stop the VNC instance to allow you make any further configurations by the running the following command.
+
+```bash
+vncserver -kill :1
+```
+
+The command will kill the Xtightvnc processes if running.
+
+Using your text editor, open the VNC Server configuration file but make sure you backup the original configuration file.
+
+```bash
+mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
+sudo vim ~/.vnc/xstartup
+```
+
+Modify the file with the below configs.
+
+```bash
+#!/bin/bash
+xrdb $HOME/.Xresources
+startxfce4 &
+```
