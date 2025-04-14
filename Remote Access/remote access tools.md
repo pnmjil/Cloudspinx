@@ -173,3 +173,11 @@ vncserver -localhost
 ```
 
 Appending the *-localhost* on the command binds the VNC Server to your localhost. This causes the VNC Server to allow connections that come from the localhost.
+
+
+
+### 3. Configure Remote Access Using Remote Desktop Protocol (RDP) in Ubuntu Desktop.
+
+RDP is a secure network communication protocol that enables users to remotely access and control other computers, servers or vitual machines. Communication between remotely connected computers happens over an encrypted communication tunnel.
+
+The RDP uses a Client-Server model to facilitate secure communication between the communicating devices. The user installs RDP Client on the computer to be connected to remotely. The connections are initiated from the RDP Server.
